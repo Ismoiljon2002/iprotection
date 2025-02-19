@@ -1,0 +1,422 @@
+.home__section {
+  text-align: center;
+  background-color: $light-gray;
+  border-radius: 24px;
+  padding: 72px 10%;
+  margin: 100px 0;
+
+  h1 {
+    font: normal normal 600 48px/64px $golos;
+    color: $blue-gray-900;
+  }
+
+  p {
+    font: normal normal 00 20px/30px $raleway;
+    color: $muted;
+    padding: 16px 20%;
+  }
+
+  form {
+    width: 60%;
+    margin: 20px auto;
+
+    div {
+      display: flex;
+
+      input {
+        color: $blue-gray-900;
+        font: normal normal 500 18px/24px $raleway;
+        padding: 20px 24px;
+        border-radius: 16px;
+        border: 1px solid #fff;
+        margin-right: 8px;
+
+        &:focus {
+          border: 1px solid $base-blue;
+          box-shadow: none;
+        }
+      }
+
+      .btn {
+        padding: 20px 40px;
+        font: normal normal 20px/24px $raleway;
+        border-radius: 16px;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    padding: 72px 5%;
+
+    p {
+      padding: 16px;
+    }
+
+    form {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    padding: 48px 5%;
+
+    form {
+      div {
+        flex-direction: column;
+        align-items: center;
+
+        input {
+          margin-right: 0;
+          margin-bottom: 8px;
+        }
+
+        .btn {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.modal {
+  @include flex-center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #afafaf4d;
+  backdrop-filter: blur(6px);
+  transform: scale(0);
+  transition: 0.3s ease;
+
+  &.show {
+    transform: scale(1);
+  }
+
+  .modal-content {
+    max-width: 70%;
+    padding: 56px;
+    border-radius: 16px;
+    box-shadow:
+      0px 265px 159px 0px #0000000d,
+      0px 470px 188px 0px #00000003,
+      0px 735px 206px 0px #00000000;
+    border: none;
+
+    h2 {
+      font: normal normal 700 40px/48px $raleway;
+      color: #000;
+    }
+
+    p {
+      font: normal normal 400 20px/32px $raleway;
+      color: $dark-gray;
+      padding: 10px 0;
+    }
+
+    img {
+      width: 130px;
+      margin: 0 auto;
+    }
+
+    h3 {
+      font: normal normal 700 40px/48px $raleway;
+    }
+
+    @media screen and (max-width: 991px) {
+      max-width: 90%;
+      padding: 20px;
+    }
+  }
+}
+
+.error-modal .modal-content {
+  max-width: 40%;
+  padding: 32px 32px 24px;
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 12px 30px;
+    font:
+      normal normal 20px / 24px 'Raleway',
+      sans-serif;
+    border-radius: 16px;
+  }
+
+  @media screen and (max-width: 991px) {
+    max-width: 90%;
+    padding: 20px;
+
+    h3 {
+      font-size: 18px;
+      line-height: normal;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+}
+
+.registration-type-modal .modal-content {
+  width: 600px;
+
+  > div {
+    img {
+      width: 72px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      color: $muted;
+      font: normal normal 500 16px/24px $raleway;
+    }
+  }
+
+  p {
+    color: #000;
+    font: normal normal 500 16px/28px $raleway;
+    padding-top: 15px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      color: #000;
+      font: normal normal 500 16px/28px $raleway;
+      margin: 16px 0;
+      display: flex;
+      align-items: center;
+
+      span {
+        width: 48px;
+        height: 48px;
+        margin-right: 15px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        background-color: $light-gray;
+        font: normal normal 700 24px/32px $raleway;
+        @include flex-center;
+        display: inline-flex;
+      }
+    }
+  }
+
+  .btn-primary {
+    background-color: $base-blue;
+    display: block;
+    margin: 32px auto 0;
+    padding: 20px 40px;
+    border-radius: 16px;
+    font: normal normal 600 20px/24px $raleway;
+  }
+
+  .btn-group {
+    background-color: $light-gray;
+    border-radius: 12px;
+    padding: 4px;
+    gap: 2px;
+
+    .btn {
+      padding: 6px;
+      border-radius: 12px;
+      font: normal normal 600 16px/28px $raleway;
+      overflow: hidden;
+      box-shadow: none;
+      border: none;
+
+      &.btn-success {
+        background-color: $green;
+      }
+
+      &.btn-light {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+section h2 {
+  font: normal normal 700 40px/48px $raleway;
+  color: $blue-gray-900;
+  text-align: center;
+
+  @media screen and (max-width: 991px) {
+    font-size: 24px;
+  }
+
+  & ~ p {
+    font-size: 14px;
+  }
+}
+
+.faq {
+  margin: 50px 0;
+
+  .accordion-item {
+    border: none;
+    border-bottom: 1px solid #eef1f2;
+  }
+
+  .accordion-body {
+    font: normal normal 500 20px/28px $raleway;
+  }
+
+  .accordion-header button {
+    font: normal normal 600 24px/48px $raleway;
+    color: $blue-gray-900;
+    padding: 28px 0;
+    box-shadow: none;
+    outline: none;
+    background: #fff;
+
+    &::after {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background-color: #f1f5f980;
+      background-position: center;
+      padding: 15px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    h2 {
+      font-size: 32px;
+    }
+
+    .accordion-header button {
+      padding: 16px 0;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .accordion-body {
+      font-size: 14px;
+      padding: 0.6rem;
+    }
+  }
+}
+
+.registration-type-card {
+  background-color: $light-gray;
+  border-radius: 16px;
+  padding: 24px;
+  flex: 1 1 calc(50% - 4rem);
+
+  > div > img {
+    width: 72px;
+  }
+
+  .btn {
+    padding: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  h4 {
+    font: normal normal 600 32px/40px $raleway;
+    margin: 40px 0 5px;
+    color: $blue-gray-900;
+  }
+
+  p {
+    font: normal normal 500 18px/28px $raleway;
+    color: $muted;
+    width: 70%;
+
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    flex: 1 1 calc(50% - 2rem);
+
+    > div > img {
+      width: 56px;
+    }
+
+    h4 {
+      font-size: 18px;
+      line-height: normal;
+      text-align: center;
+      margin: 24px 0 5px;
+    }
+
+    p {
+      font-size: 14px;
+      text-align: center;
+      line-height: normal;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    flex: 1 1 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .home__section {
+    h1 {
+      font:
+        normal normal 600 24px / 44px 'Golos Text',
+        sans-serif;
+    }
+
+    .home__text {
+      font-size: 14px;
+    }
+
+    form {
+      input {
+        padding: 10px 20px;
+      }
+
+      .btn {
+        padding: 19px 40px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.form-item {
+  position: relative;
+
+  .icon {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    font-size: 24px;
+    color: $blue-gray-900;
+  }
+}
+
+.rs-picker-popup-daterange,
+.rs-input-group-addon {
+  display: none;
+}

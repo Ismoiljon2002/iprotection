@@ -1,0 +1,9 @@
+// Include Bootstrap files
+@import 'bootstrap/scss/bootstrap';
+
+// all other files
+@import './variables';
+@import './base';
+@import './header';
+@import './pages/home';
+@import './pages/admin';

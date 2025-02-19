@@ -1,0 +1,55 @@
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+$golos: 'Golos Text', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+// Colors
+$white: #ffffff;
+$light-blue: #eff7ff;
+$light-gray: #f6f8f9;
+$blue-gray-900: #0f172a;
+$dark-gray: #334155;
+$base-blue: #007eff;
+$green: #29ca5f;
+
+$muted: #606779;
+
+$navbar-height: 90px;
+$main-height: calc(100vh - $navbar-height);
+
+@mixin flex-center($direction: row) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin flex-between($direction: row) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin modal-background {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: #afafaf4d;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transform: scale(0);
+  transition: 0.3s ease;
+  @include flex-center;
+}
+
+.text-primary {
+  color: $base-blue;
+}

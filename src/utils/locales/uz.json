@@ -1,0 +1,140 @@
+{
+  "home": {
+    "checkRegistrationStatus": "Ro’yxatga olinganlik holatini tekshirish",
+    "checkRegistrationDescription": "IMEI kodingizni kiritib, qurilmangiz haqidagi ma'lumotlarni oling. Siz qurilmangiz ro‘yxatdan o‘tganligini tez va oson tekshirishingiz mumkin.",
+    "enterImeiCode": "IMEI kodni kiriting",
+    "check": "Tekshirish",
+    "registrationMethods": "Barcha afzalliklar",
+    "descriptionMethods": " Bizning loyihalar bilan hayotingizni yanada yengillashtiring",
+    "phonesTitle": "Yangi telefonlarni Asaxiydan arzon narxlarda toping!",
+    "phonesContent": "Asaxiyda eng yangi smartfonlarni ajoyib narxlarda kashf eting! Hozir xarid qiling va mukammal telefonni ajoyib imkoniyatlar va arzon narxlarda toping.",
+    "booksTitle": "Bilim dunyosiga sayohatni Asaxiy bilan boshlang!",
+    "booksContent": "Badiiy, biznes yoki shaxsiy rivojlanish kitoblari — qaysi biri kerak bo‘lsa, Asaxiyda mavjud!",
+    "techsTitle": "Smart texnologiyalar Asaxiyda! Hayotingizni qulayroq qiling!",
+    "techsContent": "Maishiy texnikadan tortib, so‘nggi avlod gadjetlarigacha — hammasi bir joyda. Asaxiyda sifatli va kafolatlangan mahsulotlar bilan texnologiyani sinab ko‘ring",
+    "discountTitle": "Chegirmalar mavsumi boshlandi! Tezroq, o‘tkazib yubormang",
+    "discountContent": "Eng yaxshi narxlar va maxsus takliflar faqat Asaxiyda! Sizga kerak bo‘lgan mahsulotlar endi yanada arzonroq. Fursatni qo‘ldan boy bermang — bugun buyurtma bering!"
+  },
+  "header": {
+    "login": "Kirish",
+    "registration": "Ro'yxatdan o'tish"
+  },
+  "faq": {
+    "title": "Ko'p beriladigan savollar",
+    "faq1Title": "Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin?",
+    "faq1Content": "Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin? Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin?",
+    "faq2Title": "Jismoniy shaxslar-rezidentlar mobil qurilmaning IMEI-kodini qanday ro'yxatdan o'tkazadi?",
+    "faq2Content": "Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin? Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin?",
+    "faq3Title": "Jismoniy shaxlar-norezidentlar mobil qurilmalarning IMEI-kodi/kodlari qanday ro'yxatdan o'tkazadi?",
+    "faq3Content": "Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin? Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin?",
+    "faq4Title": "Mobil qurilmaning IMEI-kodi holati qanday tekshiriladi?",
+    "faq4Content": "Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin? Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin?",
+    "faq5Title": "O'zbekiston Respublikasi hududida sotib olingan mobil qurilmalarning IMEI-kodi/kodlari qanday ro'yxatdan o'tkaziladi?",
+    "faq5Content": "Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin? Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin?",
+    "faq6Title": "Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin?",
+    "faq6Content": "Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin? Mobil qurilmaning IMEI-kodi/kodlarini qanday bilish mumkin?"
+  },
+  "errorModal": {
+    "title": "Xatolik",
+    "description": "IMEI-kod noto‘g‘ri. IMEI 15 ta raqamdan iborat bo‘lishi kerak. Iltimos, kodni tekshiring va qaytadan urining."
+  },
+  "successModal": {
+    "imeiInfo": "Diqqat! Ushbu qurilma nasiya asosida sotib olingan!",
+    "imeiDescription": "Telefon to‘lovlari to‘liq amalga oshirilmaguncha cheklovlarga duch kelishi mumkin. Xarid qilishdan oldin uning to‘lov holatini tekshirib ko‘rishni unutmang.",
+    "registrationIndividuals": "Jismoniy shaxslar uchun ro'yxatdan o'tish",
+    "deviceModel": "Mobil qurilmaning modeli",
+    "trustedPurchase": "Ishonchli va kafolatlangan smartfonlarni faqat <1>Asaxiy.uz</1> dan xarid qiling!"
+  },
+  "birdaModal": {
+    "title": "Birda",
+    "description": "Rezident va norezident jismoniy shaxslar uchun IMEI kodini BIRDA mobil ilovasi orqali ro’yxatdan o’tkazish",
+    "step1": "BIRDA mobile iovasining jamoat taklifini ko’rib chiqing",
+    "step2": "IMEI kodini ro’yxatdan o’tkazish bo’limiga o’ting",
+    "step3": "IMEI kod(lar)ini kiritgan holda elektron anketani to’ldiring",
+    "gotoSite": "Saytga o’tish"
+  },
+  "myGovModal": {
+    "title": "myGov",
+    "description": "Jismoniy shaxslar tomonidan mobil qurilmaning IMEI kodini myGov mobil ilovasida ro’yxatdan o’tkazish",
+    "step1": "myGov mobil ilovasining jamoat taklifini ko’rib chiqing",
+    "step2": "myGov mobil ilovasida ro’yxatdan o’ting",
+    "step3": "Mobil qurilmaning IMEI kodini ro’yxatdan o’tkazish xizmatini tanlang",
+    "step4": "IMEI kod(lar)i bilan elektron anketani to’ldiring",
+    "gotoSite": "Saytga o’tish",
+    "loading": "Yuklanmoqda..."
+  },
+  "operatorModal": {
+    "title": "Operatorlar",
+    "descriptionLocals": "Mobil qurilmaning IMEI-kodini jismoniy shaxs (rezident) tomonidan o’zi kelgan holda ro’yxatdan o’tkazish",
+    "localsButton": "O’zR rezidentlari uchun",
+    "foreignersButton": "Chet el fuqarolari uchun",
+    "stepForLocals1": "Pasportni taqdim etish",
+    "stepForLocals2": "Mahalliy mobil operatorda ariza beruvchining nomiga rasmiylashtirilgan abonent raqamini taqdim etish",
+    "stepForLocals3": "IMEI-kod/kodlar bilan mobil qurilmani taqdim etish",
+    "stepForLocals4": "To’lovni amalga oshirish (onlayn va oflayn)",
+    "stepForForeigners1": "Pasportni taqdim etish",
+    "stepForForeigners2": "Mahalliy mobil operatorda ariza beruvchining nomiga norezident maqomi bilan rasmiylashtirilgan abonent raqamini taqdim etish",
+    "stepForForeigners3": "IMEI-kod/kodlar bilan mobil qurilmani taqdim etish",
+    "stepForForeigners4": "Anketani to’ldirish",
+    "stepForForeigners5": "To’lovni amalga oshirish (onlayn va oflayn)"
+  },
+  "gmailModal": {
+    "title": "Pochta",
+    "description": "Rezidentlar uchun IMEI-kodni pochta aloqasi nuqtalarida ro’yxatdan o’tkazish",
+    "residents": "IMEI-kodni ro'yxatdan o'tkazish uchun rezident pasport va telefon bilan pochta bo'limiga shaxsan murojaat qilishi kerak. Mahalliy operatorning SIM-kartasi xuddi shu pasportga rasmiylashtirilgan bo'lishi shart. Agar qurilma pochta orqali olingan bo'lsa, muhrlangan qoplama talab etiladi.",
+    "nonResidents": "IMEI-kodni ro'yxatdan o'tkazish uchun norezident pasport va telefon bilan pochta bo'limiga shaxsan murojaat qilishi kerak. Mahalliy operatorning norezident maqomiga ega SIM-kartasi xuddi shu pasportga rasmiylashtirilgan bo'lishi shart. Agar qurilma pochta orqali olingan bo'lsa, muhrlangan qoplama talab etiladi.",
+    "stateless": "Fuqaroligi bo'lmagan shaxslar mobil qurilmasining IMEI-kodi/kodlarini O'zbekiston Respublikasining Vazirlar Mahkamasi tomonidan belgilangan tartibda berilgan biometrik harakatlanish hujjati orqali ro'yxatdan o'tkazishlari mumkin."
+  },
+  "register": {
+    "title": "Ro’yhatdan o’tish",
+    "name": "Isminigiz",
+    "namePlaceholder": "Ismingiz",
+    "phone": "Telefon raqam",
+    "phonePlaceholder": "+998 xx xxx xx xx",
+    "company": "Kompaniya nomi",
+    "companyPlaceholder": "Kompaniya nomi",
+    "activity": "Faoliyati",
+    "activityPlaceholder": "Faoliyati",
+    "submit": "Davom etish",
+    "verify": "Tasdiqlash",
+    "accountPrompt": "Akkountingiz bormi?",
+    "surname": "Familiyangiz",
+    "surnamePlaceholder": "Familiyangiz",
+    "code": "Tasdiqlash kodi",
+    "codePlaceholder": "SMS kodini kiriting",
+    "resend": "Qayta yuborish",
+    "resendNow": "Yuborish"
+  },
+  "notFoundModal": {
+    "title": "Sizning telefoningiz IMEI raqami bizning saytdan rasmiylashtirilmagan!",
+    "description": "Agar qurilmangizni muddatli to’lovga sotayotgan bo‘lsangiz, IMEI raqamini ro‘yxatdan o‘tkazing. IMEI ro‘yxatdan o‘tmaguncha tarmoqdan foydalanishda cheklovlar bo‘lishi mumkin!",
+    "button": "👉 Hozir ro‘yxatdan o‘tkazing!"
+  },
+  "registerUserModal": {
+    "title": "IMEI ro‘yxatdan o‘tkazish",
+    "subtitle_customer": "Oluvchining ma’lumotlari",
+    "subtitle_seller": "Sotuvchining ma’lumotlari",
+    "phoneMismatch": "Oluvchi va sotuvchi raqami bir xil bo‘lishi mumkin emas",
+    "otpIncorrect": "Kod noto‘g‘ri kiritildi"
+  },
+  "registerImeiModal": {
+    "title": "IMEI ro’yxatdan o’tkazish",
+    "subtitle": "Telefonni ro'yxatdan o'tkazish",
+    "model": "Modeli",
+    "select_model": "Telefon modelini tanlang",
+    "enter_model": "Telefon modelini kiriting",
+    "name": "Rusumi",
+    "enter_name": "Telefon rusumini kiriting",
+    "imei1": "IMEI 1",
+    "enter_imei1": "IMEI 1 ni kiriting",
+    "imei2": "IMEI 2",
+    "enter_imei2": "IMEI 2 ni kiriting",
+    "date_range": "Telefon berilgan muddati",
+    "status": "Telefon statusi",
+    "select_status": "Telefon statusini tanlang",
+    "status_1": "Qarzda",
+    "status_2": "Yechilgan",
+    "submit": "Ro’yxatdan o’tkazish",
+    "verify": "Tekshirilmoqda..."
+  }
+}

@@ -1,0 +1,59 @@
+// Global Styles
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: $main-height;
+}
+
+a {
+  color: inherit;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+li,
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-center-row {
+  @include flex-center(row);
+}
+
+.flex-center-col {
+  @include flex-center(column);
+}
+
+.btn-primary {
+  background-color: $base-blue;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+.navbar {
+  background-color: #fff !important;
+}

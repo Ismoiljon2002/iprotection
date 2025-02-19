@@ -1,0 +1,140 @@
+{
+  "home": {
+    "checkRegistrationStatus": "Check Registration Status",
+    "checkRegistrationDescription": "Enter your IMEI code to get information about your device. You can quickly and easily check if your device is registered.",
+    "enterImeiCode": "Enter IMEI Code",
+    "check": "Check",
+    "registrationMethods": "All advantages",
+    "descriptionMethods": "Make your life lighter with our projects",
+    "loading": "Loading...",
+    "phonesTitle": "Find new phones from Asahi at affordable prices!",
+    "phonesContent": "Discover the latest smartphones on Asaxiy at unbeatable prices! Shop now to find your perfect phone with amazing features and deals, all within your budget.",
+    "booksTitle": "Start your journey into the world of knowledge with Asahi!",
+    "booksContent": "Books of art, business or personal development — whichever is needed, are available at Asaxiy!",
+    "techsTitle": "Smart technologies at Asaxiy! Make your life more comfortable!",
+    "techsContent": "From household appliances to Gadgets of the latest generation — all in one place. Test the technology with quality and guaranteed products at Asaxiy",
+    "discountTitle": "The season of discounts has begun! Faster, don't miss",
+    "discountContent": "The best prices and Special Offers are only at Asaxiy! The products you need are now even cheaper. Do not miss the opportunity — order today!"
+  },
+  "header": {
+    "login": "Login",
+    "registration": "Registration"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "faq1Title": "How can I know the IMEI code(s) of a mobile device?",
+    "faq1Content": "How can I know the IMEI code(s) of a mobile device? How can I know the IMEI code(s) of a mobile device?",
+    "faq2Title": "How do resident individuals register the IMEI code of a mobile device?",
+    "faq2Content": "How can I know the IMEI code(s) of a mobile device? How can I know the IMEI code(s) of a mobile device?",
+    "faq3Title": "How do non-resident individuals register the IMEI code(s) of mobile devices?",
+    "faq3Content": "How can I know the IMEI code(s) of a mobile device? How can I know the IMEI code(s) of a mobile device?",
+    "faq4Title": "How to check the status of the IMEI code of a mobile device?",
+    "faq4Content": "How can I know the IMEI code(s) of a mobile device? How can I know the IMEI code(s) of a mobile device?",
+    "faq5Title": "How are the IMEI codes of mobile devices purchased in the territory of the Republic of Uzbekistan registered?",
+    "faq5Content": "How can I know the IMEI code(s) of a mobile device? How can I know the IMEI code(s) of a mobile device?",
+    "faq6Title": "How can I know the IMEI code(s) of a mobile device?",
+    "faq6Content": "How can I know the IMEI code(s) of a mobile device? How can I know the IMEI code(s) of a mobile device?"
+  },
+  "errorModal": {
+    "title": "Error",
+    "description": "The IMEI code is incorrect. IMEI must consist of 15 digits. Please check the code and try again."
+  },
+  "successModal": {
+    "imeiInfo": "Attention! This device has been purchased on an installment plan!",
+    "imeiDescription": "Restrictions may apply until all payments for this phone are completed. Before purchasing, make sure to check its payment status.",
+    "registrationIndividuals": "Registration for individuals",
+    "deviceModel": "Mobile device model",
+    "trustedPurchase": "Buy reliable and certified smartphones only from the official <1>Asaxiy.uz</1>!"
+  },
+  "birdaModal": {
+    "title": "Birda",
+    "description": "Registration of IMEI code through the BIRDA mobile application for resident and non-resident individuals",
+    "step1": "Review the public offer of the BIRDA mobile application",
+    "step2": "Go to the section for registering the IMEI code",
+    "step3": "Fill out the electronic form by entering the IMEI code(s)",
+    "gotoSite": "Go to site"
+  },
+  "myGovModal": {
+    "title": "myGov",
+    "description": "Registration of the IMEI code of the mobile device through the myGov mobile application by individuals",
+    "step1": "Review the public offer of the myGov mobile application",
+    "step2": "Register in the myGov mobile application",
+    "step3": "Select the service for registering the IMEI code of the mobile device",
+    "step4": "Fill out the electronic form with the IMEI code(s)",
+    "gotoSite": "Go to site"
+  },
+  "operatorModal": {
+    "title": "Operators",
+    "descriptionLocals": "Registration of the IMEI code of the mobile device by an individual (resident) in person",
+    "localsButton": "For residents of Uzbekistan",
+    "foreignersButton": "For foreign citizens",
+    "stepForLocals1": "Provide passport",
+    "stepForLocals2": "Provide the subscriber number registered in the name of the applicant at the local mobile operator",
+    "stepForLocals3": "Provide the mobile device with the IMEI code(s)",
+    "stepForLocals4": "Make the payment (online and offline)",
+    "stepForForeigners1": "Provide passport",
+    "stepForForeigners2": "Provide the subscriber number registered in the name of the applicant at the local mobile operator with non-resident status",
+    "stepForForeigners3": "Provide the mobile device with the IMEI code(s)",
+    "stepForForeigners4": "Fill out the form",
+    "stepForForeigners5": "Make the payment (online and offline)"
+  },
+  "gmailModal": {
+    "title": "Post",
+    "description": "Registration of IMEI code for residents at postal service points",
+    "residents": "To register the IMEI code, a resident must personally visit the post office with a passport and phone. The SIM card of the local operator must be registered to the same passport. If the device was received by mail, a sealed envelope is required.",
+    "nonResidents": "To register the IMEI code, a non-resident must personally visit the post office with a passport and phone. The SIM card of the local operator with non-resident status must be registered to the same passport. If the device was received by mail, a sealed envelope is required.",
+    "stateless": "Stateless persons can register the IMEI code(s) of their mobile device through a biometric document issued in accordance with the procedure established by the Cabinet of Ministers of the Republic of Uzbekistan."
+  },
+  "register": {
+    "title": "Registration",
+    "name": "Your Name",
+    "namePlaceholder": "Your Name",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+998 xx xxx xx xx",
+    "company": "Company Name",
+    "companyPlaceholder": "Company Name",
+    "activity": "Activity",
+    "activityPlaceholder": "Activity",
+    "submit": "Continue",
+    "verify": "Verify",
+    "accountPrompt": "Do you have an account?",
+    "surname": "Your Surname",
+    "surnamePlaceholder": "Your Surname",
+    "code": "Verification Code",
+    "codePlaceholder": "Enter SMS Code",
+    "resend": "Resend",
+    "resendNow": "Send"
+  },
+  "notFoundModal": {
+    "title": "Your phone's IMEI number has not been registered on our website!",
+    "description": "If you are selling your device on an installment plan, register the IMEI number. Without IMEI registration, there may be restrictions on network usage!",
+    "button": "👉 Register now!"
+  },
+  "registerUserModal": {
+    "title": "IMEI Registration",
+    "subtitle_customer": "Customer Information",
+    "subtitle_seller": "Seller Information",
+    "phoneMismatch": "The buyer's and seller's phone numbers cannot be the same",
+    "otpIncorrect": "Incorrect code entered"
+  },
+  "registerImeiModal": {
+    "title": "Register IMEI",
+    "subtitle": "Register your phone",
+    "model": "Model",
+    "select_model": "Select a phone model",
+    "enter_model": "Enter phone model",
+    "name": "Model Name",
+    "enter_name": "Enter phone model name",
+    "imei1": "IMEI 1",
+    "enter_imei1": "Enter IMEI 1",
+    "imei2": "IMEI 2",
+    "enter_imei2": "Enter IMEI 2",
+    "date_range": "Phone issuance date",
+    "status": "Phone status",
+    "select_status": "Select phone status",
+    "status_1": "On Credit",
+    "status_2": "Paid Off",
+    "submit": "Register",
+    "verify": "Verifying..."
+  }
+}
